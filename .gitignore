@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Airflow
+airflow.db
+logs/
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Docker
+*.log
+
+postgres/
+
+# Secrets
+.env
+.env.*
